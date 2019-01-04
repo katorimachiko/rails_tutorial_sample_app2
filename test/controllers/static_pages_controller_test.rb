@@ -23,5 +23,4 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
     assert_select"title", "About | #{@base_title}"
   end
-
 end
