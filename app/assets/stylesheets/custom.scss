@@ -181,3 +181,20 @@ input {
     color: $state-danger-text;
   }
 }
+
+#flash{
+  .alert_danger{
+    color: $state-danger-text;
+    background: $state-danger-bg;
+    padding: 1em 1em;
+    margin: 0 0;
+    border-radius: 5px;
+  }
+  .alert_success{
+    color: $state-success-text;
+    background: $state-success-bg;
+    padding: 1em 1em;
+    margin: 0 0;
+    border-radius: 5px;
+  }
+}
